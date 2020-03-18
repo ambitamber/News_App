@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="search_news">Search for a News</string>
+    <string name="section_name">Section Name</string>
+    <string name="updated_date">Updated Date</string>
+    <string name="refresh">Fefresh_Button</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Filter Settings</string>
+
+    <!-- Strings For Headlines or Everything [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Headlines or Everything</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_headline_value</string>
+    <!-- Label for order-by Headlines option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_headline_label">Headlines</string>
+    <string name="settings_order_by_headline_value" translatable="false">top-headlines</string>
+    <!-- Label for order-by Everything option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_everthing_label">Everything</string>
+    <string name="settings_order_by_everything_value" translatable="false">everything</string>
+
+
+    <!-- Strings For Sort By [CHAR LIMIT=30] -->
+    <string name="settings_sort_by_label">Sort By</string>
+    <string name="settings_sort_by_key" translatable="false">sort_by</string>
+    <string name="settings_sort_by_default" translatable="false">@string/settings_sort_by_publishedAt_value</string>
+    <!-- Label for sort-by Relevancy option [CHAR LIMIT=20] -->
+    <string name="settings_sort_by_relevancy_label">Relevancy</string>
+    <string name="settings_sort_by_relevancy_value" translatable="false">relevancy</string>
+    <!-- Label for sort-by popularity option [CHAR LIMIT=20] -->
+    <string name="settings_sort_by_popularity_label">Popularity</string>
+    <string name="settings_sort_by_popularity_value" translatable="false">popularity</string>
+    <!-- Label for sort-by popularity option [CHAR LIMIT=20] -->
+    <string name="settings_sort_by_publishedAt_label">Published At</string>
+    <string name="settings_sort_by_publishedAt_value" translatable="false">publishedAt</string>
+
+    <!-- Strings For Minimum Magnitude Preference [CHAR LIMIT=30] -->
+    <string name="settings_min_result_label">Results Size</string>
+    <string name="settings_min_result_key" translatable="false">min_result</string>
+    <string name="settings_min_result_default" translatable="false">20</string>
+
+    <!-- Strings For category [CHAR LIMIT=30] -->
+    <string name="settings_category_label">Categories</string>
+    <string name="settings_category_key" translatable="false">categories</string>
+    <string name="settings_category_default" translatable="false">@string/settings_category_entertainment_value</string>
+    <!-- Label for category entertainment option [CHAR LIMIT=20] -->
+    <string name="settings_category_entertainment_label">Entertainment</string>
+    <string name="settings_category_entertainment_value" translatable="false">entertainment</string>
+    <!-- Label for category Business option [CHAR LIMIT=20] -->
+    <string name="settings_category_business_label">Business</string>
+    <string name="settings_category_business_value" translatable="false">business</string>
+    <!-- Label for category Health option [CHAR LIMIT=20] -->
+    <string name="settings_category_health_label">Health</string>
+    <string name="settings_category_health_value" translatable="false">health</string>
+    <!-- Label for category Health option [CHAR LIMIT=20] -->
+    <string name="settings_category_science_label">Science</string>
+    <string name="settings_category_science_value" translatable="false">Science</string>
+    <!-- Label for category Health option [CHAR LIMIT=20] -->
+    <string name="settings_category_sports_label">Sports</string>
+    <string name="settings_category_sports_value" translatable="false">sports</string>
+    <!-- Label for category Health option [CHAR LIMIT=20] -->
+    <string name="settings_category_technology_label">Technology</string>
+    <string name="settings_category_technology_value" translatable="false">technology</string>
+</resources>
